@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>related to my Work</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='scss/main.css') }}"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+
+    <header>
+        <div class="menu-btn">
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+        </div>
+
+        <nav class="menu">
+            <div class="menu-branding">
+                <div class="portrait">
+
+                </div>
+            </div>
+
+            <ul class="menu-nav">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/">
+                        Home
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/about">
+                        About Me
+                    </a>
+                </li>
+
+                <li class="nav-item current">
+                    <a class="nav-link" href="/work">
+                        Projects
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/skills">
+                        Skills
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">
+                        Contact Me
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+
+    <main id="work">
+        <h1 class="lg-heading">
+            My <span class="text-secondary">Projects</span>
+        </h1>
+        <h2 class="sm-heading">
+            Check out some of my projects...
+        </h2>
+
+        <div class="projects">
+            <div class="item">
+                <a href="#!">
+                    <img src="{{ url_for('static', filename='img/portfol/p21.jpg') }}" alt="Project"/>
+                </a>
+                <a class="btn-light" href="#">
+                    <i class="fas fa-eye"></i> HOLYLAND (About Israel and Israel Tourism)
+                </a>
+                <a class="btn-dark" href="https://github.com/rrjack" target="_blank">
+                    <i class="fab fa-github"></i> Github
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="#!">
+                    <img src="{{ url_for('static', filename='img/portfol/p14.jpg') }}" alt="Project"/>
+                </a>
+                <a class="btn-light" href="#">
+                    <i class="fas fa-eye"></i> MYPORTFOLIO (Personal Portfolio)
+                </a>
+                <a class="btn-dark" href="https://github.com/rrjack" target="_blank">
+                    <i class="fab fa-github"></i> Github
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="#!">
+                    <img src="{{ url_for('static', filename='img/portfol/p15.jpg') }}" alt="Project"/>
+                </a>
+                <a class="btn-light" href="#">
+                    <i class="fas fa-eye"></i> JOHNY(a smart calculator, pure python mini project)
+                </a>
+                <a class="btn-dark" href="https://github.com/rrjack" target="_blank">
+                    <i class="fab fa-github"></i> Github
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="#!">
+                    <img src="{{ url_for('static', filename='img/portfol/p29.jpg') }}" alt="Project"/>
+                </a>
+                <a class="btn-light" href="#">
+                    <i class="fas fa-eye"></i> LOAN CALCULATOR(Python GUI mini Project)
+                </a>
+                <a class="btn-dark" href="https://github.com/rrjack" target="_blank">
+                    <i class="fab fa-github"></i> Github
+                </a>
+            </div>
+
+
+            <div class="item">
+                <a href="#!">
+                    <img src="{{ url_for('static', filename='img/portfol/p26.jpg') }}" alt="Project"/>
+                </a>
+                <a class="btn-light" href="#">
+                    <i class="fas fa-eye"></i> PYTHON DJANGO (Working, in process)
+                </a>
+                <a class="btn-dark" href="https://github.com/rrjack" target="_blank">
+                    <i class="fab fa-github"></i> Github
+                </a>
+
+            </div>
+
+            <div class="item">
+                <a href="#!">
+                    <img src="{{ url_for('static', filename='img/portfol/p24.jpg') }}" alt="Project"/>
+                </a>
+                <a class="btn-light" href="#">
+                    <i class="fas fa-eye"></i> DELHI TOURISM (Academic Project)
+                </a>
+                <a class="btn-dark" href="https://github.com/rrjack" target="_blank">
+                    <i class="fab fa-github"></i> Github
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="#!">
+                    <img src="{{ url_for('static', filename='img/portfol/p19.png') }}" alt="Project"/>
+                </a>
+                <a class="btn-light" href="#">
+                    <i class="fas fa-eye"></i> LOCATION BASED SECURITY (Final year Academic Project)
+                </a>
+                <a class="btn-dark" href="https://github.com/rrjack" target="_blank">
+                    <i class="fab fa-github"></i> Github
+                </a>
+
+            </div>
+
+
+        </div>
+
+    </main>
+
+
+
+
+    <footer id="main-footer">
+        Copyright &copy; 2019
+    </footer>
+
+
+    <script src="{{ url_for('static', filename='js/portfolio.js') }}"></script>
+
+</body>
+</html>
